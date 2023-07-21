@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T14:16:40 IST" name="Default suite" finished-at="2023-07-21T14:16:57 IST" duration-ms="16832">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T14:16:40 IST" name="Default test" finished-at="2023-07-21T14:16:57 IST" duration-ms="16832">
+      <class name="com.npu.test.UpdateTest">
+        <test-method signature="UpdateNaukriPro()[pri:0, instance:com.npu.test.UpdateTest@31304f14]" started-at="2023-07-21T14:16:40 IST" name="UpdateNaukriPro" finished-at="2023-07-21T14:16:57 IST" duration-ms="16781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateNaukriPro -->
+      </class> <!-- com.npu.test.UpdateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
