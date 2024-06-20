@@ -17,8 +17,8 @@ public class UpdateTest {
 		driver.manage().window().maximize();
         driver.get("https://www.naukri.com/nlogin/login");
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-        driver.findElement(By.id("usernameField")).sendKeys("sanket.chaudhari31@gmail.com");
-        driver.findElement(By.id("passwordField")).sendKeys("Sanket@31897");
+        driver.findElement(By.id("usernameField")).sendKeys();
+        driver.findElement(By.id("passwordField")).sendKeys();
         driver.findElement(By.xpath("//button[text()='Login']")).click();
         Thread.sleep(2000);
         driver.findElement(By.linkText("View profile")).click();
